@@ -1,0 +1,12 @@
+{
+  "filas_originales": 96455,
+  "filas_vacias_eliminadas": 44731,
+  "filas_limpias": 50835,
+  "estaciones": 152,
+  "zonas_troncales": 13,
+  "accesos": 413,
+  "salidas_totales_mes": 60962639,
+  "filas_por_hora": 82080,
+  "filas_perfiles": 152,
+  "variables_perfil": 36
+}

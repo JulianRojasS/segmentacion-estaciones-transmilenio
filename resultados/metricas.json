@@ -1,0 +1,160 @@
+{
+  "k_elegido": 3,
+  "silueta_media": 0.3757,
+  "davies_bouldin": 1.0061,
+  "inercia": 9563.2,
+  "tamanos": [
+    56,
+    49,
+    47
+  ],
+  "verificacion_kmedias_propio": {
+    "iteraciones_propia": 5,
+    "etiquetas_identicas_a_sklearn": true,
+    "diferencia_maxima_centroides": 7.105427357601002e-15,
+    "inercia_propia": 9563.2063,
+    "inercia_sklearn": 9563.2063,
+    "inercia_modelo_final_manual": 9563.2063,
+    "inercia_modelo_final_sklearn": 9563.2063,
+    "silueta_calle72_manual": 0.4923,
+    "silueta_calle72_sklearn": 0.4923,
+    "historial_inercia_propia": [
+      10118.6,
+      9741.9,
+      9572.3,
+      9563.2,
+      9563.2
+    ]
+  },
+  "ward": {
+    "ari_vs_kmedias": 0.6751,
+    "coincidencia_pct": 86.8,
+    "tabla_cruzada": {
+      "0": {
+        "0": 54,
+        "1": 5,
+        "2": 0
+      },
+      "1": {
+        "0": 2,
+        "1": 31,
+        "2": 0
+      },
+      "2": {
+        "0": 0,
+        "1": 13,
+        "2": 47
+      }
+    }
+  },
+  "estabilidad_semillas": {
+    "ari_minimo": 1.0,
+    "ari_medio": 1.0
+  },
+  "estabilidad_quincenas": {
+    "quincena_1": {
+      "coinciden": 151,
+      "porcentaje": 99.3,
+      "cambian": [
+        "Recinto Ferial"
+      ]
+    },
+    "quincena_2": {
+      "coinciden": 151,
+      "porcentaje": 99.3,
+      "cambian": [
+        "MOVISTAR ARENA"
+      ]
+    }
+  },
+  "pca_varianza_explicada": [
+    0.8169,
+    0.0717
+  ],
+  "grupos": [
+    {
+      "grupo": 0,
+      "nombre": "Destino (pico de la mañana)",
+      "estaciones": 56,
+      "pct_punta_manana": 43.1,
+      "pct_punta_tarde": 14.7,
+      "relacion_finde_habil": 0.486,
+      "salidas_dia_habil_media": 13475,
+      "salidas_dia_habil_total": 754618,
+      "portales": 1,
+      "silueta_media": 0.3467,
+      "estaciones_mas_tipicas": [
+        "Calle 72",
+        "Flores – Areandina",
+        "Calle 127",
+        "NIZA - CALLE 127",
+        "Av. El Dorado"
+      ],
+      "estaciones_mas_grandes": [
+        "Calle 100 - Marketmedios",
+        "Calle 76 - San Felipe",
+        "Marly",
+        "Calle 127",
+        "Avenida Jimenez"
+      ],
+      "hora_pico_habil": 7,
+      "hora_pico_finde": 8
+    },
+    {
+      "grupo": 1,
+      "nombre": "Mixta",
+      "estaciones": 49,
+      "pct_punta_manana": 28.0,
+      "pct_punta_tarde": 26.3,
+      "relacion_finde_habil": 0.592,
+      "salidas_dia_habil_media": 12843,
+      "salidas_dia_habil_total": 629350,
+      "portales": 2,
+      "silueta_media": 0.2251,
+      "estaciones_mas_tipicas": [
+        "Normandía",
+        "Carrera 53",
+        "Hortúa",
+        "Avenida 68",
+        "NQS - Calle 30 Sur"
+      ],
+      "estaciones_mas_grandes": [
+        "Cabecera Autopista Norte",
+        "Portal Eldorado",
+        "Toberin - Foundever",
+        "Alcalá",
+        "Calle 63"
+      ],
+      "hora_pico_habil": 7,
+      "hora_pico_finde": 13
+    },
+    {
+      "grupo": 2,
+      "nombre": "Origen residencial (pico de la tarde)",
+      "estaciones": 47,
+      "pct_punta_manana": 10.1,
+      "pct_punta_tarde": 45.0,
+      "relacion_finde_habil": 0.633,
+      "salidas_dia_habil_media": 18922,
+      "salidas_dia_habil_total": 889379,
+      "portales": 7,
+      "silueta_media": 0.5671,
+      "estaciones_mas_tipicas": [
+        "Santa Lucía",
+        "Av. Primero de Mayo",
+        "Banderas P. Central",
+        "Calle 40 Sur",
+        "Portal 20 de Julio"
+      ],
+      "estaciones_mas_grandes": [
+        "Portal Américas",
+        "Portal Suba",
+        "Portal Sur JFK Coop. Financiera",
+        "Cabecera Calle 80",
+        "Cabecera Usme"
+      ],
+      "hora_pico_habil": 18,
+      "hora_pico_finde": 14
+    }
+  ]
+}
